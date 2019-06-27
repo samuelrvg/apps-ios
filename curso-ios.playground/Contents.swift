@@ -79,3 +79,22 @@ func mostrarNome(){
 }
 
 mostrarNome()
+
+class Casa{
+    
+    //atributos
+    var cor = "azul"
+    
+    //construtor
+    init(cor: String){
+        self.cor = cor
+    }
+    
+    //func
+    func getCor() -> String{
+        return self.cor
+    }
+}
+
+var casa = Casa(cor: "preto")
+casa.getCor()
