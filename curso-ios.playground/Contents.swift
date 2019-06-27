@@ -98,3 +98,5 @@ class Casa{
 
 var casa = Casa(cor: "preto")
 casa.getCor()
+
+
